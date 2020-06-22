@@ -12,7 +12,6 @@ class TimerTestCase(unittest.TestCase):
         return func(x, y)
     
     def test_timer_func(self):
-        print('saf')
         func(1, y=2)
     
     def test_timer_method(self):
