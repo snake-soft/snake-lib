@@ -9,3 +9,6 @@ __all__ = [
     'lru_cache',
     'cache',
     ]
+
+if __name__ == '__main__':
+    unittest.main()
