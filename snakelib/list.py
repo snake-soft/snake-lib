@@ -1,5 +1,4 @@
 
-@staticmethod
 def intersection(lst1, lst2):
     """ method to calculate intersection between two lists
     :param lst1: first list to user
