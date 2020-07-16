@@ -12,5 +12,7 @@ def intersection(*iterables):
         output_type = types.pop()
         if output_type == str:
             return ''.join(intersected)
-        return output_type(intersected)
+        elif output_type in (list, set):
+            return output_type(intersected)
+
     return intersected
