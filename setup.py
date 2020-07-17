@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="snakelib", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="snake-soft",
     author_email="info@snake-soft.com",
     description="Development tools",
